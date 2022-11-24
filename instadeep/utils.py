@@ -13,7 +13,7 @@ def reader(partition, data_path):
             data.append(pd.read_csv(file, index_col=None, usecols=["sequence", "family_accession"]))
 
     all_data = pd.concat(data)        
-    return all_data["sequence"], all_data["family_accession"]'
+    return all_data["sequence"], all_data["family_accession"]
 
 def build_labels(targets):
     unique_targets = targets.unique()
