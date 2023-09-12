@@ -1,4 +1,4 @@
-# Instadeep Interview Test
+# MLOps Interview Test
 ### Using Python to run
 ```
 usage: main.py [-h] -d DATA_DIR [-max_seq_len SEQ_MAX_LEN] [-bs BATCH_SIZE]
